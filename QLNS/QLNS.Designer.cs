@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace QuanLyNhanSu {
+namespace QLNS {
     
     
     /// <summary>
@@ -2183,7 +2183,7 @@ namespace QuanLyNhanSu {
         }
     }
 }
-namespace QuanLyNhanSu.QLNSTableAdapters {
+namespace QLNS.QLNSTableAdapters {
     
     
     /// <summary>
@@ -2351,7 +2351,7 @@ SELECT id_Da, name_Da, sonv_Da, mota_Da FROM DUAN WHERE (id_Da = @id_Da)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::QuanLyNhanSu.Properties.Settings.Default.Quanlynhasu_3FConnectionString1;
+            this._connection.ConnectionString = global::QLNS.Properties.Settings.Default.Quanlynhasu_3FConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2732,7 +2732,7 @@ SELECT id_Pb, name_Pb, sonv_Pb, mota_Pb FROM PHONGBAN WHERE (id_Pb = @id_Pb)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::QuanLyNhanSu.Properties.Settings.Default.Quanlynhasu_3FConnectionString1;
+            this._connection.ConnectionString = global::QLNS.Properties.Settings.Default.Quanlynhasu_3FConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3127,7 +3127,7 @@ SELECT id_Nv, name_Nv, ngaysinh_Nv, diachi_Nv, luong_Nv, id_Pb, id_Da FROM NHANV
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::QuanLyNhanSu.Properties.Settings.Default.Quanlynhasu_3FConnectionString1;
+            this._connection.ConnectionString = global::QLNS.Properties.Settings.Default.Quanlynhasu_3FConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3561,7 +3561,7 @@ SELECT username, password, id_Nv, phanquyen FROM DANGNHAP WHERE (username = @use
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::QuanLyNhanSu.Properties.Settings.Default.Quanlynhasu_3FConnectionString1;
+            this._connection.ConnectionString = global::QLNS.Properties.Settings.Default.Quanlynhasu_3FConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
