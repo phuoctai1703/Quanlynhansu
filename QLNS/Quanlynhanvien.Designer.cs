@@ -65,12 +65,12 @@
 			this.id_Pb = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.id_Da = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.panel4 = new System.Windows.Forms.Panel();
-			this.qLNS = new QLNS.QLNS();
+			this.qLNS = new QLNS();
 			this.pHONGBANBindingSource = new System.Windows.Forms.BindingSource(this.components);
-			this.pHONGBANTableAdapter = new QLNS.QLNSTableAdapters.PHONGBANTableAdapter();
-			this.tableAdapterManager = new QLNS.QLNSTableAdapters.TableAdapterManager();
+			this.pHONGBANTableAdapter = new QLNSTableAdapters.PHONGBANTableAdapter();
+			this.tableAdapterManager = new QLNSTableAdapters.TableAdapterManager();
 			this.dUANBindingSource = new System.Windows.Forms.BindingSource(this.components);
-			this.dUANTableAdapter = new QLNS.QLNSTableAdapters.DUANTableAdapter();
+			this.dUANTableAdapter = new QLNSTableAdapters.DUANTableAdapter();
 			this.idDaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.nameDaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.sonvDaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -512,7 +512,7 @@
 			this.tableAdapterManager.DUANTableAdapter = this.dUANTableAdapter;
 			this.tableAdapterManager.NHANVIENTableAdapter = null;
 			this.tableAdapterManager.PHONGBANTableAdapter = this.pHONGBANTableAdapter;
-			this.tableAdapterManager.UpdateOrder = QLNS.QLNSTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+			this.tableAdapterManager.UpdateOrder = QLNSTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
 			// 
 			// dUANBindingSource
 			// 
